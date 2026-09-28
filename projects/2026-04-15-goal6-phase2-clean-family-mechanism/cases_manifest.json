@@ -1,0 +1,57 @@
+[
+  {
+    "label": "goal6_A_main_0003",
+    "family": "A_main_hsneq_fast_switch",
+    "Hs_update_mode": "nonequilibrium_only",
+    "pulse_start": 1000.0,
+    "pulse_width": 1000.0,
+    "pulse_run_id": "goal6_A_main_0003_pa1p5_gso0p9_jsd0p3_jexm0p02_jani0p03_damp0p3_twidth1000p0_hsneq",
+    "pulse_results_dir": "/home/jalil/jalil_codes/Projects_2026/Driven-Switching/projects/2026-04-10-goal6-retained-switch/results/queued_goal6_20260410T191626Z_first117/goal6_A_main_0003_pa1p5_gso0p9_jsd0p3_jexm0p02_jani0p03_damp0p3_twidth1000p0_hsneq",
+    "control_run_id": "goal6_A_main_0003_nopulse_gso0p9_jsd0p3_jexm0p02_jani0p03_damp0p3_twidth1000p0_hsneq",
+    "control_results_dir": "/home/jalil/jalil_codes/Projects_2026/Driven-Switching/projects/2026-04-14-goal6-no-pulse-controls/results/matched_no_pulse_controls/goal6_A_main_0003_nopulse_gso0p9_jsd0p3_jexm0p02_jani0p03_damp0p3_twidth1000p0_hsneq"
+  },
+  {
+    "label": "goal6_A_main_0034",
+    "family": "A_main_hsneq_delayed_retention",
+    "Hs_update_mode": "nonequilibrium_only",
+    "pulse_start": 1000.0,
+    "pulse_width": 2000.0,
+    "pulse_run_id": "goal6_A_main_0034_pa1p5_gso0p9_jsd0p3_jexm0p02_jani0p01_damp0p7_twidth2000p0_hsneq",
+    "pulse_results_dir": "/home/jalil/jalil_codes/Projects_2026/Driven-Switching/projects/2026-04-10-goal6-retained-switch/results/queued_goal6_20260410T191626Z_first117/goal6_A_main_0034_pa1p5_gso0p9_jsd0p3_jexm0p02_jani0p01_damp0p7_twidth2000p0_hsneq",
+    "control_run_id": "goal6_A_main_0034_nopulse_gso0p9_jsd0p3_jexm0p02_jani0p01_damp0p7_twidth2000p0_hsneq",
+    "control_results_dir": "/home/jalil/jalil_codes/Projects_2026/Driven-Switching/projects/2026-04-14-goal6-no-pulse-controls/results/matched_no_pulse_controls/goal6_A_main_0034_nopulse_gso0p9_jsd0p3_jexm0p02_jani0p01_damp0p7_twidth2000p0_hsneq"
+  },
+  {
+    "label": "goal6_A_main_0010",
+    "family": "A_main_hsneq_stabilization",
+    "Hs_update_mode": "nonequilibrium_only",
+    "pulse_start": 1000.0,
+    "pulse_width": 1000.0,
+    "pulse_run_id": "goal6_A_main_0010_pa1p5_gso0p9_jsd0p3_jexm0p02_jani0p01_damp0p7_twidth1000p0_hsneq",
+    "pulse_results_dir": "/home/jalil/jalil_codes/Projects_2026/Driven-Switching/projects/2026-04-10-goal6-retained-switch/results/queued_goal6_20260410T191626Z_first117/goal6_A_main_0010_pa1p5_gso0p9_jsd0p3_jexm0p02_jani0p01_damp0p7_twidth1000p0_hsneq",
+    "control_run_id": "goal6_A_main_0010_nopulse_gso0p9_jsd0p3_jexm0p02_jani0p01_damp0p7_twidth1000p0_hsneq",
+    "control_results_dir": "/home/jalil/jalil_codes/Projects_2026/Driven-Switching/projects/2026-04-15-goal6-no-pulse-robustness/results/matched_no_pulse_controls/goal6_A_main_0010_nopulse_gso0p9_jsd0p3_jexm0p02_jani0p01_damp0p7_twidth1000p0_hsneq"
+  },
+  {
+    "label": "goal6_A_main_0059",
+    "family": "A_main_hsneq_late_retention",
+    "Hs_update_mode": "nonequilibrium_only",
+    "pulse_start": 1000.0,
+    "pulse_width": 3000.0,
+    "pulse_run_id": "goal6_A_main_0059_pa1p5_gso0p9_jsd0p3_jexm0p02_jani0p03_damp0p7_twidth3000p0_hsneq",
+    "pulse_results_dir": "/home/jalil/jalil_codes/Projects_2026/Driven-Switching/projects/2026-04-10-goal6-retained-switch/results/queued_goal6_20260410T191626Z_first117/goal6_A_main_0059_pa1p5_gso0p9_jsd0p3_jexm0p02_jani0p03_damp0p7_twidth3000p0_hsneq",
+    "control_run_id": "goal6_A_main_0059_nopulse_gso0p9_jsd0p3_jexm0p02_jani0p03_damp0p7_twidth3000p0_hsneq",
+    "control_results_dir": "/home/jalil/jalil_codes/Projects_2026/Driven-Switching/projects/2026-04-15-goal6-no-pulse-robustness/results/matched_no_pulse_controls/goal6_A_main_0059_nopulse_gso0p9_jsd0p3_jexm0p02_jani0p03_damp0p7_twidth3000p0_hsneq"
+  },
+  {
+    "label": "goal6_A_high_damping_0001",
+    "family": "A_high_damping_strip",
+    "Hs_update_mode": "nonequilibrium_only",
+    "pulse_start": 1000.0,
+    "pulse_width": 1000.0,
+    "pulse_run_id": "goal6_A_high_damping_0001_pa1p5_gso0p9_jsd0p3_jexm0p02_jani0p03_damp1p0_twidth1000p0_hsneq",
+    "pulse_results_dir": "/home/jalil/jalil_codes/Projects_2026/Driven-Switching/projects/2026-04-10-goal6-retained-switch/results/queued_goal6_20260410T191626Z_first117/goal6_A_high_damping_0001_pa1p5_gso0p9_jsd0p3_jexm0p02_jani0p03_damp1p0_twidth1000p0_hsneq",
+    "control_run_id": "goal6_A_high_damping_0001_nopulse_gso0p9_jsd0p3_jexm0p02_jani0p03_damp1p0_twidth1000p0_hsneq",
+    "control_results_dir": "/home/jalil/jalil_codes/Projects_2026/Driven-Switching/projects/2026-04-15-goal6-no-pulse-robustness/results/matched_no_pulse_controls/goal6_A_high_damping_0001_nopulse_gso0p9_jsd0p3_jexm0p02_jani0p03_damp1p0_twidth1000p0_hsneq"
+  }
+]

@@ -1,0 +1,89 @@
+{
+  "status": "finished",
+  "completed_cases": 6,
+  "total_cases": 6,
+  "max_parallel_cases": 3,
+  "results_root": "/home/jalil/jalil_codes/Projects_2026/Driven-Switching/projects/2026-04-17-rhoeq-stationarity-check/results/stationarity_cases",
+  "timestamp_utc": "2026-04-17T21:13:29.358745+00:00",
+  "note": "stationarity batch active",
+  "case_states": [
+    {
+      "run_id": "rhoeq_stationarity_gso0p9_pade20",
+      "gamma_so": 0.9,
+      "rhoeq_pade_poles": 20,
+      "results_dir": "/home/jalil/jalil_codes/Projects_2026/Driven-Switching/projects/2026-04-17-rhoeq-stationarity-check/results/stationarity_cases/rhoeq_stationarity_gso0p9_pade20",
+      "log_path": "/home/jalil/jalil_codes/Projects_2026/Driven-Switching/projects/2026-04-17-rhoeq-stationarity-check/rhoeq_stationarity_gso0p9_pade20.log",
+      "progress_path": "/home/jalil/jalil_codes/Projects_2026/Driven-Switching/projects/2026-04-17-rhoeq-stationarity-check/results/stationarity_cases/rhoeq_stationarity_gso0p9_pade20/progress.json",
+      "status": "done",
+      "rhs_total_absmax": 0.11087934671216441,
+      "rhs_psi_absmax": 0.11087934671216441,
+      "rhoeq_guess_sigma_delta_absmax_final": 0.007251675766303978,
+      "zero_init_sigma_delta_absmax_final": 0.05928601591257632
+    },
+    {
+      "run_id": "rhoeq_stationarity_gso0p9_pade40",
+      "gamma_so": 0.9,
+      "rhoeq_pade_poles": 40,
+      "results_dir": "/home/jalil/jalil_codes/Projects_2026/Driven-Switching/projects/2026-04-17-rhoeq-stationarity-check/results/stationarity_cases/rhoeq_stationarity_gso0p9_pade40",
+      "log_path": "/home/jalil/jalil_codes/Projects_2026/Driven-Switching/projects/2026-04-17-rhoeq-stationarity-check/rhoeq_stationarity_gso0p9_pade40.log",
+      "progress_path": "/home/jalil/jalil_codes/Projects_2026/Driven-Switching/projects/2026-04-17-rhoeq-stationarity-check/results/stationarity_cases/rhoeq_stationarity_gso0p9_pade40/progress.json",
+      "status": "done",
+      "rhs_total_absmax": 0.1108793676280421,
+      "rhs_psi_absmax": 0.1108793676280421,
+      "rhoeq_guess_sigma_delta_absmax_final": null,
+      "zero_init_sigma_delta_absmax_final": null
+    },
+    {
+      "run_id": "rhoeq_stationarity_gso0p1_pade20",
+      "gamma_so": 0.1,
+      "rhoeq_pade_poles": 20,
+      "results_dir": "/home/jalil/jalil_codes/Projects_2026/Driven-Switching/projects/2026-04-17-rhoeq-stationarity-check/results/stationarity_cases/rhoeq_stationarity_gso0p1_pade20",
+      "log_path": "/home/jalil/jalil_codes/Projects_2026/Driven-Switching/projects/2026-04-17-rhoeq-stationarity-check/rhoeq_stationarity_gso0p1_pade20.log",
+      "progress_path": "/home/jalil/jalil_codes/Projects_2026/Driven-Switching/projects/2026-04-17-rhoeq-stationarity-check/results/stationarity_cases/rhoeq_stationarity_gso0p1_pade20/progress.json",
+      "status": "done",
+      "rhs_total_absmax": 0.11825547771187704,
+      "rhs_psi_absmax": 0.11825547771187704,
+      "rhoeq_guess_sigma_delta_absmax_final": 0.031849620250191835,
+      "zero_init_sigma_delta_absmax_final": 0.07545620659671831
+    },
+    {
+      "run_id": "rhoeq_stationarity_gso0p1_pade40",
+      "gamma_so": 0.1,
+      "rhoeq_pade_poles": 40,
+      "results_dir": "/home/jalil/jalil_codes/Projects_2026/Driven-Switching/projects/2026-04-17-rhoeq-stationarity-check/results/stationarity_cases/rhoeq_stationarity_gso0p1_pade40",
+      "log_path": "/home/jalil/jalil_codes/Projects_2026/Driven-Switching/projects/2026-04-17-rhoeq-stationarity-check/rhoeq_stationarity_gso0p1_pade40.log",
+      "progress_path": "/home/jalil/jalil_codes/Projects_2026/Driven-Switching/projects/2026-04-17-rhoeq-stationarity-check/results/stationarity_cases/rhoeq_stationarity_gso0p1_pade40/progress.json",
+      "status": "done",
+      "rhs_total_absmax": 0.11825549861835946,
+      "rhs_psi_absmax": 0.11825549861835946,
+      "rhoeq_guess_sigma_delta_absmax_final": null,
+      "zero_init_sigma_delta_absmax_final": null
+    },
+    {
+      "run_id": "rhoeq_stationarity_gso0p05_pade20",
+      "gamma_so": 0.05,
+      "rhoeq_pade_poles": 20,
+      "results_dir": "/home/jalil/jalil_codes/Projects_2026/Driven-Switching/projects/2026-04-17-rhoeq-stationarity-check/results/stationarity_cases/rhoeq_stationarity_gso0p05_pade20",
+      "log_path": "/home/jalil/jalil_codes/Projects_2026/Driven-Switching/projects/2026-04-17-rhoeq-stationarity-check/rhoeq_stationarity_gso0p05_pade20.log",
+      "progress_path": "/home/jalil/jalil_codes/Projects_2026/Driven-Switching/projects/2026-04-17-rhoeq-stationarity-check/results/stationarity_cases/rhoeq_stationarity_gso0p05_pade20/progress.json",
+      "status": "done",
+      "rhs_total_absmax": 0.11835203266516409,
+      "rhs_psi_absmax": 0.11835203266516409,
+      "rhoeq_guess_sigma_delta_absmax_final": 0.0346436332400476,
+      "zero_init_sigma_delta_absmax_final": 0.07870268676795661
+    },
+    {
+      "run_id": "rhoeq_stationarity_gso0p05_pade40",
+      "gamma_so": 0.05,
+      "rhoeq_pade_poles": 40,
+      "results_dir": "/home/jalil/jalil_codes/Projects_2026/Driven-Switching/projects/2026-04-17-rhoeq-stationarity-check/results/stationarity_cases/rhoeq_stationarity_gso0p05_pade40",
+      "log_path": "/home/jalil/jalil_codes/Projects_2026/Driven-Switching/projects/2026-04-17-rhoeq-stationarity-check/rhoeq_stationarity_gso0p05_pade40.log",
+      "progress_path": "/home/jalil/jalil_codes/Projects_2026/Driven-Switching/projects/2026-04-17-rhoeq-stationarity-check/results/stationarity_cases/rhoeq_stationarity_gso0p05_pade40/progress.json",
+      "status": "done",
+      "rhs_total_absmax": 0.1183520535708265,
+      "rhs_psi_absmax": 0.1183520535708265,
+      "rhoeq_guess_sigma_delta_absmax_final": null,
+      "zero_init_sigma_delta_absmax_final": null
+    }
+  ]
+}

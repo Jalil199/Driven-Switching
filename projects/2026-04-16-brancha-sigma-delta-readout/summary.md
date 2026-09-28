@@ -1,0 +1,5 @@
+- prompt: muestrame como da `σ(t) - σ_eq(t)` para las corridas que dieron bien del Branch A
+- procedures: se identificaron las cinco corridas limpias/exitosas de `Branch A` desde `projects/2026-04-15-goal6-phase2-clean-family-mechanism/results/phase2_mechanism_clean_families/analysis/phase2_mechanism_summary.tsv`; luego se leyó `observables.tsv` de cada corrida retenida en `projects/2026-04-10-goal6-retained-switch/results/queued_goal6_20260410T191626Z_first117/`; se calculó el promedio por sitio de `sigma_delta_x/y/z` y el máximo absoluto instantáneo entre todos los sitios/componentes; finalmente se generaron una figura comparativa y una tabla resumen.
+- generated data: `projects/2026-04-16-brancha-sigma-delta-readout/brancha_sigma_delta_summary.tsv`
+- generated figure: `projects/2026-04-16-brancha-sigma-delta-readout/brancha_sigma_delta_overview.png`
+- status: done

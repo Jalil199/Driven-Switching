@@ -1,0 +1,101 @@
+- prompt: Refine the next Goal 5 switching scan so it keeps the same all-points-in-parallel workflow, uses the right-lead-only pulse convention, compares `Hs_update_mode ∈ {nonequilibrium_only, full_spin_density}`, and runs the recommended `160`-point (`320`-job) improved batch with at most `34` simultaneous jobs.
+- procedures: Re-read unified memory, refreshed `scan_summary.tsv` for the active Goal 5 queue with `refresh_scan_summary.py`, and confirmed the detached controller PID `964937` is still alive after about `1:53:29` of runtime; measured the live queue totals as `50` completed jobs, `34` dispatched jobs, and `236` pending jobs; recomputed paired A/B completion over the `Hs_update_mode` branches and verified that the finished set remains `25` complete parameter-point pairs; checked whether that finished coverage is broad enough to choose the next local widening and found that completed physics still only spans `pulse_amp=1.5`, `gamma_so=0.7`, `j_sd∈{0.2,0.3}`, and `j_ex∈{-0.02,-0.01}` with no finished `gamma_so=0.9` or `pulse_amp=2.0` pairs yet.
+- generated data: `projects/2026-04-08-tdnegf-spin-baseline/results/queued_parameter_scan_20260410T001920Z_goal5/case_manifest.tsv`, `projects/2026-04-08-tdnegf-spin-baseline/results/queued_parameter_scan_20260410T001920Z_goal5/scan_config.json`, `projects/2026-04-08-tdnegf-spin-baseline/results/queued_parameter_scan_20260410T001920Z_goal5/scan_summary.tsv`
+- generated data: `projects/2026-04-08-tdnegf-spin-baseline/logs/queued_parameter_scan_20260410T001920Z_goal5.log`
+- generated data: the live queue now has `84` materialized run directories in the active scan root: `50` completed jobs with `summary.json` + `observables.tsv`, `34` dispatched jobs with `params.json` only, and `236` remaining pending manifest entries
+- generated data: the finished `25` A/B parameter-point pairs now show `7` reversals total across the per-mode runs; all reversal-bearing pairs still sit at `j_ani=0.0`, with `3` reversals in `nonequilibrium_only` and `4` in `full_spin_density`
+- debugging clue: the queue is still in progress and the completed set is still too narrow to choose between widening `pulse_amp` and opening a pulse-timing strip. Even though `j_sd=0.3` and some `j_ex=-0.01` pairs are now finished, there are still no completed `gamma_so=0.9` or `pulse_amp=2.0` parameter-point pairs, so the current low-`j_ani` reversal pattern could still be an early-slice artifact.
+- status: blocked
+
+- prompt: Refine the next Goal 5 switching scan so it keeps the same all-points-in-parallel workflow, uses the right-lead-only pulse convention, compares `Hs_update_mode ∈ {nonequilibrium_only, full_spin_density}`, and runs the recommended `160`-point (`320`-job) improved batch with at most `34` simultaneous jobs.
+- procedures: Re-read unified memory, confirmed detached controller PID `964937` is still alive after about `2:10:49` of runtime, refreshed `scan_summary.tsv`, and recomputed completed A/B coverage for the active Goal 5 production queue.
+- generated data: `projects/2026-04-08-tdnegf-spin-baseline/results/queued_parameter_scan_20260410T001920Z_goal5/scan_summary.tsv`
+- generated data: the active queue now has `113` materialized jobs, with `79` completed jobs, `34` dispatched jobs, and `207` pending jobs; those completed jobs form `39` complete A/B parameter-point pairs.
+- generated data: completed A/B pairs still cover only `pulse_amp=1.5` and `gamma_so=0.7`, while spanning `j_sd∈{0.2,0.3}` and `j_ex∈{-0.02,-0.01}`; there are still `0` completed `gamma_so=0.9` pairs and `0` completed `pulse_amp=2.0` pairs.
+- generated data: finished complete pairs now contain `10` full-reversal branch runs across `7` reversal-bearing parameter points; all reversal branch runs remain at `j_ani=0.0`, split evenly between `nonequilibrium_only` and `full_spin_density`.
+- debugging clue: the next widening decision remains premature because the completed physics still lacks the higher-`gamma_so` and higher-`pulse_amp` slices requested for the threshold-seeking scan.
+- status: blocked
+
+- prompt: Refine the next Goal 5 switching scan so it keeps the same all-points-in-parallel workflow, uses the right-lead-only pulse convention, compares `Hs_update_mode ∈ {nonequilibrium_only, full_spin_density}`, and runs the recommended `160`-point (`320`-job) improved batch with at most `34` simultaneous jobs.
+- procedures: Re-read unified memory, confirmed detached controller PID `964937` is still alive after about `2:28:25` of runtime, refreshed `scan_summary.tsv`, recomputed completed A/B coverage, and inspected the first completed `gamma_so=0.9` pairs for the post-queue widening decision gate.
+- generated data: `projects/2026-04-08-tdnegf-spin-baseline/results/queued_parameter_scan_20260410T001920Z_goal5/scan_summary.tsv`
+- generated data: the active queue now has `128` materialized jobs: `94` completed jobs, `33` dispatched jobs, `1` materialized `running_or_complete` job, and `192` pending manifest entries; those completed jobs form `45` complete A/B parameter-point pairs plus `4` one-sided completed pairs.
+- generated data: completed A/B pairs now include `5` pairs at `gamma_so=0.9`, but all completed pairs still have `pulse_amp=1.5`; there are still `0` completed `pulse_amp=2.0` pairs.
+- generated data: finished complete pairs contain `13` full-reversal branch runs, still all at `j_ani=0.0`; the first `gamma_so=0.9` subset contributes `3` of those full-reversal branch runs and otherwise shows no reversal for `j_ani>=0.03`.
+- debugging clue: the post-queue widening decision remains premature. The first high-`gamma_so` results reinforce low anisotropy as the active corner, but the batch has not yet produced any `pulse_amp=2.0` A/B pairs, so choosing between adding `pulse_amp=2.5` and opening a pulse-timing strip would still be underdetermined.
+- status: blocked
+
+- prompt: Refine the next Goal 5 switching scan so it keeps the same all-points-in-parallel workflow, uses the right-lead-only pulse convention, compares `Hs_update_mode ∈ {nonequilibrium_only, full_spin_density}`, and runs the recommended `160`-point (`320`-job) improved batch with at most `34` simultaneous jobs.
+- procedures: Re-read unified memory, confirmed detached controller PID `964937` is still alive after about `2:46:20` of runtime, refreshed `scan_summary.tsv`, recomputed complete A/B parameter-point coverage, and checked the widening gate.
+- generated data: `projects/2026-04-08-tdnegf-spin-baseline/results/queued_parameter_scan_20260410T001920Z_goal5/scan_summary.tsv`
+- generated data: the active queue now has `136` materialized jobs: `102` completed jobs, `34` dispatched jobs, and `184` pending manifest entries; completed jobs form `51` complete A/B parameter-point pairs with no one-sided completed pairs.
+- generated data: completed A/B pairs still all sit at `pulse_amp=1.5`; coverage now spans `gamma_so=0.7` for `40` pairs and `gamma_so=0.9` for `11` pairs, but there are still `0` completed `pulse_amp=2.0` pairs.
+- generated data: finished complete pairs contain `13` full-reversal branch runs across `9` reversal-bearing parameter points; all full-reversal branch runs still occur at `j_ani=0.0`, split as `6` `nonequilibrium_only` and `7` `full_spin_density`.
+- debugging clue: the next widening decision remains blocked. More high-`gamma_so` coverage is now present, but the queue has not yet reached the higher-amplitude `pulse_amp=2.0` slice, so choosing between adding `pulse_amp=2.5` and opening a pulse-timing strip is still premature.
+- status: blocked
+
+- prompt: User asked in Spanish: "que paso con las simulaciones?"
+- procedures: Re-read unified memory, checked controller PID `964937`, inspected the queue log, refreshed `scan_summary.tsv` for `queued_parameter_scan_20260410T001920Z_goal5`, and recomputed aggregate completion plus switching metrics for the full Goal 5 production queue.
+- generated data: `projects/2026-04-08-tdnegf-spin-baseline/results/queued_parameter_scan_20260410T001920Z_goal5/scan_summary.tsv`
+- generated data: the detached controller PID `964937` is no longer running, and `projects/2026-04-08-tdnegf-spin-baseline/logs/queued_parameter_scan_20260410T001920Z_goal5.log` ends with `Queued parameter scan complete`.
+- generated data: all `320/320` Goal 5 A/B jobs completed with `params.json`, `observables.tsv`, and `summary.json`; these form `160/160` complete paired parameter points over `Hs_update_mode={nonequilibrium_only,full_spin_density}`.
+- generated data: `45/320` branch runs changed final `avg_Mz` sign, across `34/160` parameter points; `11` parameter points reversed in both `Hs_update_mode` branches and `23` reversed in only one branch.
+- generated data: only `1/320` branch run reached a strong final reversal threshold `avg_Mz_final <= -0.8`: `scan_0111...hsfull` with `pulse_amp=2.0`, `gamma_so=0.7`, `j_sd=0.3`, `j_ex=-0.01`, `j_ani=0.0`, `damping=0.3`, and `Hs_update_mode=full_spin_density`, giving `avg_Mz_final=-0.9069931468`.
+- generated data: reversal branch counts concentrate at low anisotropy: `j_ani=0.0` gives `32` sign-changing branch runs, `j_ani=0.03` gives `10`, `j_ani=0.05` gives `3`, and `j_ani>=0.08` gives `0`.
+- debugging clue: the script's `full_reversal_detected` flag is a final-sign-change test, not a strict sustained-reversal criterion; most sign-changing runs finish near zero rather than near `avg_Mz=-1`.
+- status: done
+
+- prompt: User asked in Spanish: "Hagamos el analisis"
+- procedures: Re-read unified memory, confirmed there is no package-local `skills/` or `external_packages/` directory to consult, created `analyze_goal5_scan.py`, loaded the completed Goal 5 `scan_summary.tsv` plus all 320 `observables.tsv` trajectories, and generated stricter post-processing for final sign change, strong final reversal, deep transient reversal, sustained-tail reversal, pre-pulse crossing, and pulse-induced final switching.
+- generated data: `projects/2026-04-08-tdnegf-spin-baseline/analyze_goal5_scan.py`
+- generated data: `projects/2026-04-08-tdnegf-spin-baseline/results/queued_parameter_scan_20260410T001920Z_goal5/analysis/summary.md`
+- generated data: `projects/2026-04-08-tdnegf-spin-baseline/results/queued_parameter_scan_20260410T001920Z_goal5/analysis/goal5_ranked_runs.tsv`
+- generated data: `projects/2026-04-08-tdnegf-spin-baseline/results/queued_parameter_scan_20260410T001920Z_goal5/analysis/goal5_paired_hs_mode_comparison.tsv`
+- generated data: `projects/2026-04-08-tdnegf-spin-baseline/results/queued_parameter_scan_20260410T001920Z_goal5/analysis/goal5_by_j_ani.tsv`
+- generated figure: `projects/2026-04-08-tdnegf-spin-baseline/results/queued_parameter_scan_20260410T001920Z_goal5/analysis/goal5_top_trajectories.png`
+- generated figure: `projects/2026-04-08-tdnegf-spin-baseline/results/queued_parameter_scan_20260410T001920Z_goal5/analysis/goal5_hs_mode_comparison.png`
+- generated figure: `projects/2026-04-08-tdnegf-spin-baseline/results/queued_parameter_scan_20260410T001920Z_goal5/analysis/goal5_parameter_maps.png`
+- generated data: stricter classification gives `45/320` final sign-changing branches, `1/320` strong final branch with `avg_Mz_final <= -0.8`, `10/320` deep transient branches with `avg_Mz_min <= -0.8`, and `0/320` sustained-tail branches under the criterion `tail_mean <= -0.8` plus at least `80%` of the final `10%` samples below `-0.8`.
+- generated data: the best final branch is still `scan_0111...hsfull`, but it is not a clean pulse-induced strong switch: it has `avg_Mz_at_pulse_start=-0.8705597198`, crosses `avg_Mz=0` at `t≈101.8`, crosses `avg_Mz=-0.8` at `t≈245.1`, then has `avg_Mz_at_pulse_end≈-6.06e-8`, `avg_Mz_final=-0.9069931468`, and `tail_fraction_below_-0.8≈0.216`.
+- generated data: `41/320` branches are pulse-induced final sign changes under the weaker criterion positive at `pulse_start` and negative at final time, but `0/320` are pulse-induced strong final reversals.
+- debugging clue: the strongest apparent reversal is dominated by pre-pulse relaxation under the current `pulse_start=1000` protocol, so the next scan should control the pre-pulse transient before widening amplitude.
+- status: done
+
+- prompt: User clarified in Spanish: "Debemos enfocarnos en las que tienen el cambio mayor durante el pulso, no previo al pulso"
+- procedures: Re-read unified memory, updated `analyze_goal5_scan.py` to add pulse-window-only metrics, regenerated the completed Goal 5 analysis without launching new simulations, and ranked runs by the largest `avg_Mz` drop from just before `pulse_start` to the minimum inside the active pulse window.
+- generated data: `projects/2026-04-08-tdnegf-spin-baseline/analyze_goal5_scan.py`
+- generated data: `projects/2026-04-08-tdnegf-spin-baseline/results/queued_parameter_scan_20260410T001920Z_goal5/analysis/goal5_pulse_window_ranked_runs.tsv`
+- generated data: `projects/2026-04-08-tdnegf-spin-baseline/results/queued_parameter_scan_20260410T001920Z_goal5/analysis/goal5_paired_hs_mode_comparison.tsv`
+- generated data: `projects/2026-04-08-tdnegf-spin-baseline/results/queued_parameter_scan_20260410T001920Z_goal5/analysis/goal5_by_j_ani.tsv`
+- generated figure: `projects/2026-04-08-tdnegf-spin-baseline/results/queued_parameter_scan_20260410T001920Z_goal5/analysis/goal5_top_pulse_window_trajectories.png`
+- generated figure: `projects/2026-04-08-tdnegf-spin-baseline/results/queued_parameter_scan_20260410T001920Z_goal5/analysis/goal5_pulse_window_maps.png`
+- generated data: clean pulse-window criteria give `94/320` branches that start positive at `pulse_start` and cross `avg_Mz=0` during the pulse, plus `1/320` branch that starts positive and crosses `avg_Mz=-0.8` during the pulse.
+- generated data: the strongest clean pulse-window branch is `scan_0063...hsneq` with `pulse_amp=1.5`, `gamma_so=0.9`, `j_sd=0.3`, `j_ex=-0.02`, `j_ani=0.03`, `damping=0.3`, `Hs_update_mode=nonequilibrium_only`; it starts at `avg_Mz_at_pulse_start=0.9904004632`, reaches `pulse_window_min_avg_Mz=-0.9205178895` at `t≈1314.8`, and has `pulse_window_drop_from_start=1.9109183527`.
+- debugging clue: this strongest pulse-window response is transient and relaxes back to `avg_Mz_final=0.9999537175`, so the next technical target is not simply stronger amplitude but pulse-window stabilization/hold after the induced drop.
+- status: done
+
+- prompt: User asked in Spanish: "por lo pronto miremos los mejores candidatos que muestran una inversion fuerte durante el pulso. para analizar mejor lo casos. seleccionemos los mejores candidaos y alistalos ademas en el queued_scan_analysis para verlos"
+- procedures: Re-read unified memory, extended `analyze_goal5_scan.py` to write a compact selected pulse-window candidate watchlist, regenerated the Goal 5 analysis, and updated `queued_scan_analysis.ipynb` so it loads and displays that watchlist before the trace plots. The selection requires positive `avg_Mz` at `pulse_start`, no pre-pulse zero crossing, and an in-pulse sign crossing, then ranks by strict strong crossing, deepest pulse-window minimum, and largest pulse-window drop.
+- generated data: `projects/2026-04-08-tdnegf-spin-baseline/results/queued_parameter_scan_20260410T001920Z_goal5/analysis/goal5_selected_pulse_window_candidates.tsv`
+- generated data: selected `12` clean pulse-window candidates for manual inspection; only `1/12` is a strict strong clean in-pulse inversion with `pulse_window_min_avg_Mz <= -0.8`.
+- generated data: the strict strong clean candidate remains `scan_0063...hsneq` with `pulse_amp=1.5`, `gamma_so=0.9`, `j_sd=0.3`, `j_ex=-0.02`, `j_ani=0.03`, `damping=0.3`, `Hs_update_mode=nonequilibrium_only`, `avg_Mz_at_pulse_start=0.9904004632`, `pulse_window_min_avg_Mz=-0.9205178895`, `pulse_window_time_min_avg_Mz≈1314.8`, and `avg_Mz_final=0.9999537175`.
+- generated data: `projects/2026-04-08-tdnegf-spin-baseline/queued_scan_analysis.ipynb` now includes a static `Selected clean pulse-window candidates` snapshot, reloads the candidate TSV in code, and uses those selected rows as the primary time-trace cases when the candidate TSV exists.
+- debugging clue: strict strong clean in-pulse inversion is still a singleton in this scan; the additional selected rows are near-strong or large-drop watchlist cases, not strict `avg_Mz <= -0.8` reversals.
+- status: done
+
+- prompt: User clarified in Spanish that the best criterion is little pre-pulse dynamical affection, strong change during the pulse, and if possible inversion during the pulse or at final time.
+- procedures: Re-read unified memory, updated `analyze_goal5_scan.py` to add clean pre-pulse-positive metrics, large pulse-window-drop flags, delayed strong post-pulse inversion flags, and a combined clean pulse-response ranking; regenerated the completed Goal 5 analysis and refreshed `queued_scan_analysis.ipynb` so the selected watchlist and trace cases use the updated criterion.
+- generated data: `projects/2026-04-08-tdnegf-spin-baseline/results/queued_parameter_scan_20260410T001920Z_goal5/analysis/goal5_selected_pulse_window_candidates.tsv`
+- generated data: selected `16` clean pulse-response candidates requiring positive pre-pulse behavior with no pre-pulse zero crossing and `pulse_window_drop_from_start >= 0.8`; the selected watchlist contains `1` strict strong in-pulse candidate, `1` delayed strong post-pulse candidate, and `15` negative-final candidates under the weak final sign criterion.
+- generated data: `scan_0063...hsneq` remains rank 1 because it has the strongest clean in-pulse inversion (`avg_Mz_at_pulse_start=0.9904004632`, `pulse_window_min_avg_Mz=-0.9205178895`, `pulse_window_drop_from_start=1.9109183527`) but relaxes to `avg_Mz_final=0.9999537175`.
+- generated data: `scan_0152...hsfull` is now rank 2 as a clean delayed-strong candidate: `pre_pulse_min_avg_Mz=0.6780759`, `avg_Mz_at_pulse_start=0.8196456`, `pulse_window_min_avg_Mz=-0.1342582`, `pulse_window_drop_from_start=0.9539038`, `post_pulse_min_avg_Mz=-0.8506534`, and `avg_Mz_final=-0.5078767`.
+- generated data: `projects/2026-04-08-tdnegf-spin-baseline/queued_scan_analysis.ipynb` now displays the updated static candidate table and uses the selected clean pulse-response rows for the primary trace plots.
+- generated figure: `projects/2026-04-08-tdnegf-spin-baseline/results/queued_parameter_scan_20260410T001920Z_goal5/analysis/goal5_top_pulse_window_trajectories.png`
+- debugging clue: the updated criterion intentionally keeps `scan_0152...hsfull` even though its strong `avg_Mz <= -0.8` crossing occurs after the programmed pulse, because the pre-pulse trajectory stays positive and the pulse-window drop is large enough to mark it as pulse-induced response rather than pre-pulse relaxation.
+- status: done
+
+- prompt: User accepted the Goal 6 planning recommendations: use a longer end time for widest pulses, include a limited high-damping check, avoid `pulse_amp=2.5` in the first Branch B batch, and keep separate in-pulse/retention rankings.
+- procedures: Re-read unified memory and updated `goal6.md` from discussion mode into a settled planning note for the next launcher draft.
+- generated data: `projects/2026-04-08-tdnegf-spin-baseline/goal6.md`
+- generated data: Goal 6 now specifies `t_end=6000.0` for `pulse_width=3000`, keeps Branch A `damping=1.0` as a separate labeled `5`-job high-damping strip, excludes Branch B `pulse_amp=2.5` from the first batch, and asks analysis to produce `goal6_in_pulse_ranked_runs.tsv` plus `goal6_retention_ranked_runs.tsv`.
+- status: done

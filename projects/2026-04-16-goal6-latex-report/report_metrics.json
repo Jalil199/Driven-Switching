@@ -1,0 +1,12 @@
+{
+  "goal5_selected_candidates": 16,
+  "goal5_strict_clean_in_pulse_candidates": 1,
+  "goal6_clean_family_pair_count": 5,
+  "goal6_branch_count": 4,
+  "branchb_followup_case_count": 4,
+  "strongest_clean_family_case": "goal6_A_main_0003",
+  "strongest_clean_family_peak": 0.1893350353155086,
+  "strongest_clean_family_peak_time": 1327.8999999998878,
+  "branchb_all_negative_excursion": true,
+  "branchb_any_negative_final": true
+}

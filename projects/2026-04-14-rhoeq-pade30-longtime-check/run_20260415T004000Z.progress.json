@@ -1,0 +1,13 @@
+{
+  "run_id": "pade30_gso0p05_t2000",
+  "status": "completed",
+  "step_idx": 20000,
+  "n_steps": 20000,
+  "fraction_complete": 1.0,
+  "t_now": 1999.9999999992765,
+  "t_end": 2000.0,
+  "wall_elapsed_s": 2518.0020849704742,
+  "timestamp_utc": "2026-04-15T01:17:43.765",
+  "results_dir": "/home/jalil/jalil_codes/Projects_2026/Driven-Switching/projects/2026-04-14-rhoeq-pade30-longtime-check/results/detached_20260415T004000Z/pade30_gso0p05_t2000",
+  "pid": 1721460
+}

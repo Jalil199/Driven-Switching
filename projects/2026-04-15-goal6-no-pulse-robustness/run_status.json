@@ -1,0 +1,54 @@
+{
+  "status": "finished",
+  "completed_cases": 4,
+  "total_cases": 4,
+  "results_root": "/home/jalil/jalil_codes/Projects_2026/Driven-Switching/projects/2026-04-15-goal6-no-pulse-robustness/results/matched_no_pulse_controls",
+  "timestamp_utc": "2026-04-15T16:54:29.626293+00:00",
+  "note": "all_cases_finished_and_analyzed",
+  "case_states": [
+    {
+      "label": "goal6_A_main_0010",
+      "source_run_id": "goal6_A_main_0010_pa1p5_gso0p9_jsd0p3_jexm0p02_jani0p01_damp0p7_twidth1000p0_hsneq",
+      "run_id": "goal6_A_main_0010_nopulse_gso0p9_jsd0p3_jexm0p02_jani0p01_damp0p7_twidth1000p0_hsneq",
+      "results_dir": "/home/jalil/jalil_codes/Projects_2026/Driven-Switching/projects/2026-04-15-goal6-no-pulse-robustness/results/matched_no_pulse_controls/goal6_A_main_0010_nopulse_gso0p9_jsd0p3_jexm0p02_jani0p01_damp0p7_twidth1000p0_hsneq",
+      "log_path": "/home/jalil/jalil_codes/Projects_2026/Driven-Switching/projects/2026-04-15-goal6-no-pulse-robustness/goal6_A_main_0010_nopulse_gso0p9_jsd0p3_jexm0p02_jani0p01_damp0p7_twidth1000p0_hsneq.log",
+      "status": "done",
+      "avg_Mz_final": 0.9971014713081455,
+      "avg_Mz_min": 0.9768656024702985,
+      "t_final": 5000.0000000006585
+    },
+    {
+      "label": "goal6_A_main_0059",
+      "source_run_id": "goal6_A_main_0059_pa1p5_gso0p9_jsd0p3_jexm0p02_jani0p03_damp0p7_twidth3000p0_hsneq",
+      "run_id": "goal6_A_main_0059_nopulse_gso0p9_jsd0p3_jexm0p02_jani0p03_damp0p7_twidth3000p0_hsneq",
+      "results_dir": "/home/jalil/jalil_codes/Projects_2026/Driven-Switching/projects/2026-04-15-goal6-no-pulse-robustness/results/matched_no_pulse_controls/goal6_A_main_0059_nopulse_gso0p9_jsd0p3_jexm0p02_jani0p03_damp0p7_twidth3000p0_hsneq",
+      "log_path": "/home/jalil/jalil_codes/Projects_2026/Driven-Switching/projects/2026-04-15-goal6-no-pulse-robustness/goal6_A_main_0059_nopulse_gso0p9_jsd0p3_jexm0p02_jani0p03_damp0p7_twidth3000p0_hsneq.log",
+      "status": "done",
+      "avg_Mz_final": 0.998364301968681,
+      "avg_Mz_min": 0.988571307641647,
+      "t_final": 6000.000000004296
+    },
+    {
+      "label": "goal6_B_main_0042",
+      "source_run_id": "goal6_B_main_0042_pa2p0_gso0p9_jsd0p3_jexm0p01_jani0p0_damp0p5_twidth3000p0_hsfull",
+      "run_id": "goal6_B_main_0042_nopulse_gso0p9_jsd0p3_jexm0p01_jani0p0_damp0p5_twidth3000p0_hsfull",
+      "results_dir": "/home/jalil/jalil_codes/Projects_2026/Driven-Switching/projects/2026-04-15-goal6-no-pulse-robustness/results/matched_no_pulse_controls/goal6_B_main_0042_nopulse_gso0p9_jsd0p3_jexm0p01_jani0p0_damp0p5_twidth3000p0_hsfull",
+      "log_path": "/home/jalil/jalil_codes/Projects_2026/Driven-Switching/projects/2026-04-15-goal6-no-pulse-robustness/goal6_B_main_0042_nopulse_gso0p9_jsd0p3_jexm0p01_jani0p0_damp0p5_twidth3000p0_hsfull.log",
+      "status": "done",
+      "avg_Mz_final": -0.0009401700208226216,
+      "avg_Mz_min": -0.15267176430139595,
+      "t_final": 6000.000000004296
+    },
+    {
+      "label": "goal6_A_high_damping_0001",
+      "source_run_id": "goal6_A_high_damping_0001_pa1p5_gso0p9_jsd0p3_jexm0p02_jani0p03_damp1p0_twidth1000p0_hsneq",
+      "run_id": "goal6_A_high_damping_0001_nopulse_gso0p9_jsd0p3_jexm0p02_jani0p03_damp1p0_twidth1000p0_hsneq",
+      "results_dir": "/home/jalil/jalil_codes/Projects_2026/Driven-Switching/projects/2026-04-15-goal6-no-pulse-robustness/results/matched_no_pulse_controls/goal6_A_high_damping_0001_nopulse_gso0p9_jsd0p3_jexm0p02_jani0p03_damp1p0_twidth1000p0_hsneq",
+      "log_path": "/home/jalil/jalil_codes/Projects_2026/Driven-Switching/projects/2026-04-15-goal6-no-pulse-robustness/goal6_A_high_damping_0001_nopulse_gso0p9_jsd0p3_jexm0p02_jani0p03_damp1p0_twidth1000p0_hsneq.log",
+      "status": "done",
+      "avg_Mz_final": 0.9983506500900078,
+      "avg_Mz_min": 0.9896903103234368,
+      "t_final": 5000.0000000006585
+    }
+  ]
+}

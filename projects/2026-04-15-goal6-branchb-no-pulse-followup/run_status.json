@@ -1,0 +1,54 @@
+{
+  "status": "finished",
+  "completed_cases": 4,
+  "total_cases": 4,
+  "results_root": "/home/jalil/jalil_codes/Projects_2026/Driven-Switching/projects/2026-04-15-goal6-branchb-no-pulse-followup/results/matched_no_pulse_controls",
+  "timestamp_utc": "2026-04-16T02:21:58.655105+00:00",
+  "note": "all_cases_finished_and_analyzed",
+  "case_states": [
+    {
+      "label": "goal6_B_followup_0030",
+      "source_run_id": "goal6_B_main_0030_pa2p0_gso0p9_jsd0p3_jexm0p01_jani0p0_damp0p5_twidth2500p0_hsfull",
+      "run_id": "goal6_B_followup_0030_nopulse_gso0p9_jsd0p3_jexm0p01_jani0p0_damp0p5_twidth2500p0_hsfull",
+      "results_dir": "/home/jalil/jalil_codes/Projects_2026/Driven-Switching/projects/2026-04-15-goal6-branchb-no-pulse-followup/results/matched_no_pulse_controls/goal6_B_followup_0030_nopulse_gso0p9_jsd0p3_jexm0p01_jani0p0_damp0p5_twidth2500p0_hsfull",
+      "log_path": "/home/jalil/jalil_codes/Projects_2026/Driven-Switching/projects/2026-04-15-goal6-branchb-no-pulse-followup/goal6_B_followup_0030_nopulse_gso0p9_jsd0p3_jexm0p01_jani0p0_damp0p5_twidth2500p0_hsfull.log",
+      "status": "done",
+      "avg_Mz_final": 0.015615102241006543,
+      "avg_Mz_min": -0.15267176430139595,
+      "t_final": 5000.0000000006585
+    },
+    {
+      "label": "goal6_B_followup_0035",
+      "source_run_id": "goal6_B_main_0035_pa2p25_gso0p9_jsd0p3_jexm0p01_jani0p0_damp0p7_twidth2500p0_hsfull",
+      "run_id": "goal6_B_followup_0035_nopulse_gso0p9_jsd0p3_jexm0p01_jani0p0_damp0p7_twidth2500p0_hsfull",
+      "results_dir": "/home/jalil/jalil_codes/Projects_2026/Driven-Switching/projects/2026-04-15-goal6-branchb-no-pulse-followup/results/matched_no_pulse_controls/goal6_B_followup_0035_nopulse_gso0p9_jsd0p3_jexm0p01_jani0p0_damp0p7_twidth2500p0_hsfull",
+      "log_path": "/home/jalil/jalil_codes/Projects_2026/Driven-Switching/projects/2026-04-15-goal6-branchb-no-pulse-followup/goal6_B_followup_0035_nopulse_gso0p9_jsd0p3_jexm0p01_jani0p0_damp0p7_twidth2500p0_hsfull.log",
+      "status": "done",
+      "avg_Mz_final": 0.001612868770878015,
+      "avg_Mz_min": -0.0535810197377901,
+      "t_final": 5000.0000000006585
+    },
+    {
+      "label": "goal6_B_followup_0041",
+      "source_run_id": "goal6_B_main_0041_pa2p0_gso0p9_jsd0p3_jexm0p01_jani0p0_damp0p4_twidth3000p0_hsfull",
+      "run_id": "goal6_B_followup_0041_nopulse_gso0p9_jsd0p3_jexm0p01_jani0p0_damp0p4_twidth3000p0_hsfull",
+      "results_dir": "/home/jalil/jalil_codes/Projects_2026/Driven-Switching/projects/2026-04-15-goal6-branchb-no-pulse-followup/results/matched_no_pulse_controls/goal6_B_followup_0041_nopulse_gso0p9_jsd0p3_jexm0p01_jani0p0_damp0p4_twidth3000p0_hsfull",
+      "log_path": "/home/jalil/jalil_codes/Projects_2026/Driven-Switching/projects/2026-04-15-goal6-branchb-no-pulse-followup/goal6_B_followup_0041_nopulse_gso0p9_jsd0p3_jexm0p01_jani0p0_damp0p4_twidth3000p0_hsfull.log",
+      "status": "done",
+      "avg_Mz_final": -0.006648743352657835,
+      "avg_Mz_min": -0.23222855770481682,
+      "t_final": 6000.000000004296
+    },
+    {
+      "label": "goal6_B_followup_0043",
+      "source_run_id": "goal6_B_main_0043_pa2p0_gso0p9_jsd0p3_jexm0p01_jani0p0_damp0p7_twidth3000p0_hsfull",
+      "run_id": "goal6_B_followup_0043_nopulse_gso0p9_jsd0p3_jexm0p01_jani0p0_damp0p7_twidth3000p0_hsfull",
+      "results_dir": "/home/jalil/jalil_codes/Projects_2026/Driven-Switching/projects/2026-04-15-goal6-branchb-no-pulse-followup/results/matched_no_pulse_controls/goal6_B_followup_0043_nopulse_gso0p9_jsd0p3_jexm0p01_jani0p0_damp0p7_twidth3000p0_hsfull",
+      "log_path": "/home/jalil/jalil_codes/Projects_2026/Driven-Switching/projects/2026-04-15-goal6-branchb-no-pulse-followup/goal6_B_followup_0043_nopulse_gso0p9_jsd0p3_jexm0p01_jani0p0_damp0p7_twidth3000p0_hsfull.log",
+      "status": "done",
+      "avg_Mz_final": 1.2007716385481829e-05,
+      "avg_Mz_min": -0.0535810197377901,
+      "t_final": 6000.000000004296
+    }
+  ]
+}

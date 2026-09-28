@@ -1,0 +1,4 @@
+- prompt: podriamos correr unos de prueba sin el pulso y con el llg fijo hasta 1000 para ver si la densidad se relaja a cero? si no estoy mal esto pasa cuando el parametro de rashba es pequeno
+- procedures: created a no-pulse fixed-LLG probe in `run_fixed_llg_no_pulse_scan.jl`, froze the FM spin texture, applied the static s-d Hamiltonian once, propagated electrons only up to `t=1000`, and completed the first small-Rashba case `gamma_so=0.05` on the local machine. Additional staged cases at `gamma_so=0.10`, `0.30`, and `0.70` were prepared but not finished in this turn because the serial TDNEGF propagation is slow at `10000` output steps.
+- generated data: projects/2026-04-13-fixed-llg-no-pulse-relaxation/results/fixed_llg_no_pulse_20260413T201501/scan_summary.tsv ; projects/2026-04-13-fixed-llg-no-pulse-relaxation/results/fixed_llg_no_pulse_20260413T201501/fixedllg_gso0p05/observables.tsv
+- status: done

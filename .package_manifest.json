@@ -1,0 +1,70 @@
+{
+  "collisions": [],
+  "configured_dependency_package_ids": [],
+  "dependency_collisions": [],
+  "linked_dependency_packages": [],
+  "linked_entries": [
+    {
+      "mode": "symlink",
+      "name": "Manifest.toml",
+      "source": "/home/jalil/.fermilink/scientific_packages/packages/tdnegf/Manifest.toml"
+    },
+    {
+      "mode": "symlink",
+      "name": "Project.toml",
+      "source": "/home/jalil/.fermilink/scientific_packages/packages/tdnegf/Project.toml"
+    },
+    {
+      "mode": "symlink",
+      "name": "README.md",
+      "source": "/home/jalil/.fermilink/scientific_packages/packages/tdnegf/README.md"
+    },
+    {
+      "mode": "symlink",
+      "name": "data",
+      "source": "/home/jalil/.fermilink/scientific_packages/packages/tdnegf/data"
+    },
+    {
+      "mode": "symlink",
+      "name": "docs",
+      "source": "/home/jalil/.fermilink/scientific_packages/packages/tdnegf/docs"
+    },
+    {
+      "mode": "symlink",
+      "name": "examples",
+      "source": "/home/jalil/.fermilink/scientific_packages/packages/tdnegf/examples"
+    },
+    {
+      "mode": "symlink",
+      "name": "legacy",
+      "source": "/home/jalil/.fermilink/scientific_packages/packages/tdnegf/legacy"
+    },
+    {
+      "mode": "symlink",
+      "name": "src",
+      "source": "/home/jalil/.fermilink/scientific_packages/packages/tdnegf/src"
+    },
+    {
+      "mode": "symlink",
+      "name": "test",
+      "source": "/home/jalil/.fermilink/scientific_packages/packages/tdnegf/test"
+    }
+  ],
+  "missing_dependency_packages": [],
+  "missing_requested_entries": [],
+  "package_id": "tdnegf",
+  "package_path": "/home/jalil/.fermilink/scientific_packages/packages/tdnegf",
+  "requested_entries": [
+    "Manifest.toml",
+    "Project.toml",
+    "README.md",
+    "data",
+    "docs",
+    "examples",
+    "legacy",
+    "src",
+    "test"
+  ],
+  "updated_at": "2026-04-20T19:14:00.399620+00:00",
+  "version": 1
+}

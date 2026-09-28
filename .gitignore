@@ -1,0 +1,13 @@
+# simulation results and run bookkeeping (results/ holds ~48 GB of tsv/json)
+results/
+logs/
+*.log
+*.pid
+# tooling / editor noise
+.chainlit/
+.files/
+.codex
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+__pycache__/
+*.pyc

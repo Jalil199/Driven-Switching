@@ -1,0 +1,4 @@
+- prompt: hay alguna forma de mejorar el rho_eq? talvez incluyendo mas polos en su calculo, y asi volvemos a comparar?
+- procedures: inspected the TDNEGF implementation of `ρ_eq`, confirmed that its controllable quadrature parameter is the Padé pole count `N_λ2`, and ran a static convergence check for the same no-pulse fixed-spin setup used in the earlier `gamma_so=0.05` probe (`Nx=Ny=2`, `j_sd=0.3`, `j_ex=-0.02`, `j_ani=0.03`, `damping=0.3`) with `N_λ2 ∈ {20,30,40,60}` while keeping `N_λ1=49` fixed.
+- generated data: `results/static_rhoeq_pade_20260413T204706Z/scan_summary.tsv`
+- status: done

@@ -1,0 +1,4 @@
+- prompt: me puedes mostrar un figura de como va tendiendo a cero?
+-procedures: se tomo `observables.tsv` de las corridas sin pulso con espines fijos para `gamma_so=0.05`, una hasta `t=1000` y otra hasta `t=2000`; se calculo en cada tiempo `max_i |sigma_delta,i(t)|` sobre los cuatro sitios y se genero una figura PNG con una vista global y otra de la cola tardia en escala logaritmica.
+- generated data: `projects/2026-04-14-rhoeq-relaxation-figure/results/rhoeq_relaxation_tendency.png`
+- status: done
